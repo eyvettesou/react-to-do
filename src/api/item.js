@@ -11,8 +11,7 @@ export const getItems = () => {
   const p = new Promise((res) => {
     setTimeout(() => {
       res(serverItems)
-    // }, 3000);
-    }, 0);
+    }, 3000);
   });
 
   return p;
